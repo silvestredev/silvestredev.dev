@@ -1,0 +1,70 @@
+@import "../../../../assets/scss/variables.scss";
+
+
+.biografia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: $font-color;
+    font-size: 1.5vw;
+
+    margin-top: 70px;
+    margin-bottom: 100px;
+    padding: 20px;
+
+    height: 60%;
+    width: 55%;
+
+    background: $bg-bio-color;
+
+    border-radius: 10px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+
+    p {
+        margin-top: 30px;
+        margin-left: 20px;
+
+        background: $bg-bio-color;
+
+        @media (max-width: 1200px) {
+            margin-bottom: 40px;
+          }
+    }
+
+    @media (max-width: 1200px) {
+        align-items: center;
+        flex-direction: column;
+
+        font-size: 5vw;
+      }
+}
+
+.me-img {
+    width: 40%;
+    height: 100%;
+    border-radius: 100px;
+
+    @media (max-width: 1200px) {
+        width: 70%;
+      }
+}
+
+i {
+    display: flex;
+
+    font-size: 2vw;
+
+    margin-top: -140px;
+    margin-bottom: 40px;
+
+    background: transparent;
+
+    color: $font-color;
+    opacity: 1;
+
+    @media (max-width: 1200px) {
+        font-size: 5vw;
+        margin-top: -140px;
+      }
+}
